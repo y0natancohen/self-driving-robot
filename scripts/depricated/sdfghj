@@ -1,0 +1,154 @@
+is <1GB.
+
+started roslaunch server http://mypc-desktop:36773/
+
+SUMMARY
+========
+
+PARAMETERS
+ * /amcl/base_frame_id: base_footprint
+ * /amcl/gui_publish_rate: 50.0
+ * /amcl/initial_pose_a: 1.57
+ * /amcl/initial_pose_x: 3.4
+ * /amcl/initial_pose_y: -1.6
+ * /amcl/kld_err: 0.02
+ * /amcl/laser_lambda_short: 0.1
+ * /amcl/laser_likelihood_max_dist: 2.0
+ * /amcl/laser_max_beams: 180
+ * /amcl/laser_max_range: 3.5
+ * /amcl/laser_model_type: likelihood_field
+ * /amcl/laser_sigma_hit: 0.2
+ * /amcl/laser_z_hit: 0.5
+ * /amcl/laser_z_max: 0.05
+ * /amcl/laser_z_rand: 0.5
+ * /amcl/laser_z_short: 0.05
+ * /amcl/max_particles: 3000
+ * /amcl/min_particles: 500
+ * /amcl/odom_alpha1: 0.1
+ * /amcl/odom_alpha2: 0.1
+ * /amcl/odom_alpha3: 0.1
+ * /amcl/odom_alpha4: 0.1
+ * /amcl/odom_frame_id: odom
+ * /amcl/odom_model_type: diff
+ * /amcl/recovery_alpha_fast: 0.0
+ * /amcl/recovery_alpha_slow: 0.0
+ * /amcl/resample_interval: 1
+ * /amcl/transform_tolerance: 0.5
+ * /amcl/update_min_a: 0.2
+ * /amcl/update_min_d: 0.2
+ * /move_base/DWAPlannerROS/acc_lim_theta: 6.2
+ * /move_base/DWAPlannerROS/acc_lim_x: 4.5
+ * /move_base/DWAPlannerROS/acc_lim_y: 0.0
+ * /move_base/DWAPlannerROS/controller_frequency: 10.0
+ * /move_base/DWAPlannerROS/forward_point_distance: 0.325
+ * /move_base/DWAPlannerROS/goal_distance_bias: 20.0
+ * /move_base/DWAPlannerROS/latch_xy_goal_tolerance: False
+ * /move_base/DWAPlannerROS/max_rot_vel: 2.21
+ * /move_base/DWAPlannerROS/max_scaling_factor: 0.2
+ * /move_base/DWAPlannerROS/max_trans_vel: 0.41
+ * /move_base/DWAPlannerROS/max_vel_x: 0.5
+ * /move_base/DWAPlannerROS/max_vel_y: 0.0
+ * /move_base/DWAPlannerROS/min_rot_vel: 0.9
+ * /move_base/DWAPlannerROS/min_trans_vel: 0.13
+ * /move_base/DWAPlannerROS/min_vel_x: -0.5
+ * /move_base/DWAPlannerROS/min_vel_y: 0.0
+ * /move_base/DWAPlannerROS/occdist_scale: 0.02
+ * /move_base/DWAPlannerROS/oscillation_reset_dist: 0.05
+ * /move_base/DWAPlannerROS/path_distance_bias: 32.0
+ * /move_base/DWAPlannerROS/publish_cost_grid_pc: True
+ * /move_base/DWAPlannerROS/publish_traj_pc: True
+ * /move_base/DWAPlannerROS/scaling_speed: 0.25
+ * /move_base/DWAPlannerROS/sim_time: 2.0
+ * /move_base/DWAPlannerROS/stop_time_buffer: 0.2
+ * /move_base/DWAPlannerROS/vth_samples: 40
+ * /move_base/DWAPlannerROS/vx_samples: 20
+ * /move_base/DWAPlannerROS/vy_samples: 0
+ * /move_base/DWAPlannerROS/xy_goal_tolerance: 0.15
+ * /move_base/DWAPlannerROS/yaw_goal_tolerance: 0.3
+ * /move_base/base_local_planner: dwa_local_planner...
+ * /move_base/conservative_reset_dist: 1.0
+ * /move_base/controller_frequency: 10.0
+ * /move_base/controller_patience: 15.0
+ * /move_base/global_costmap/cost_scaling_factor: 19.0
+ * /move_base/global_costmap/footprint: [[-0.205, -0.155]...
+ * /move_base/global_costmap/global_frame: map
+ * /move_base/global_costmap/inflation_radius: 1.5
+ * /move_base/global_costmap/map_type: costmap
+ * /move_base/global_costmap/observation_sources: scan
+ * /move_base/global_costmap/obstacle_range: 3.0
+ * /move_base/global_costmap/publish_frequency: 10.0
+ * /move_base/global_costmap/raytrace_range: 3.5
+ * /move_base/global_costmap/robot_base_frame: base_footprint
+ * /move_base/global_costmap/scan/clearing: True
+ * /move_base/global_costmap/scan/data_type: LaserScan
+ * /move_base/global_costmap/scan/marking: True
+ * /move_base/global_costmap/scan/sensor_frame: base_scan
+ * /move_base/global_costmap/scan/topic: scan
+ * /move_base/global_costmap/static_map: True
+ * /move_base/global_costmap/transform_tolerance: 0.5
+ * /move_base/global_costmap/update_frequency: 10.0
+ * /move_base/local_costmap/cost_scaling_factor: 19.0
+ * /move_base/local_costmap/footprint: [[-0.205, -0.155]...
+ * /move_base/local_costmap/global_frame: odom
+ * /move_base/local_costmap/height: 3
+ * /move_base/local_costmap/inflation_radius: 1.5
+ * /move_base/local_costmap/map_type: costmap
+ * /move_base/local_costmap/observation_sources: scan
+ * /move_base/local_costmap/obstacle_range: 3.0
+ * /move_base/local_costmap/publish_frequency: 10.0
+ * /move_base/local_costmap/raytrace_range: 3.5
+ * /move_base/local_costmap/resolution: 0.05
+ * /move_base/local_costmap/robot_base_frame: base_footprint
+ * /move_base/local_costmap/rolling_window: True
+ * /move_base/local_costmap/scan/clearing: True
+ * /move_base/local_costmap/scan/data_type: LaserScan
+ * /move_base/local_costmap/scan/marking: True
+ * /move_base/local_costmap/scan/sensor_frame: base_scan
+ * /move_base/local_costmap/scan/topic: scan
+ * /move_base/local_costmap/static_map: False
+ * /move_base/local_costmap/transform_tolerance: 0.5
+ * /move_base/local_costmap/update_frequency: 10.0
+ * /move_base/local_costmap/width: 3
+ * /move_base/oscillation_distance: 0.2
+ * /move_base/oscillation_timeout: 10.0
+ * /move_base/planner_frequency: 5.0
+ * /move_base/planner_patience: 5.0
+ * /move_base/shutdown_costmaps: False
+ * /robot_description: <?xml version="1....
+ * /robot_state_publisher/publish_frequency: 50.0
+ * /robot_state_publisher/tf_prefix:
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.14
+
+NODES
+  /
+    amcl (amcl/amcl)
+    map_server (map_server/map_server)
+    move_base (move_base/move_base)
+    robot_state_publisher (robot_state_publisher/robot_state_publisher)
+    rviz (rviz/rviz)
+
+ROS_MASTER_URI=http://localhost:11311
+
+process[robot_state_publisher-1]: started with pid [11640]
+process[map_server-2]: started with pid [11641]
+process[amcl-3]: started with pid [11647]
+process[move_base-4]: started with pid [11664]
+process[rviz-5]: started with pid [11679]
+[ INFO] [1582657629.251829809, 128.940000000]: Loading from pre-hydro parameter style
+[ INFO] [1582657629.356264088, 129.014000000]: Using plugin "static_layer"
+[ INFO] [1582657629.383811982, 129.033000000]: Requesting the map...
+[ INFO] [1582657629.608363996, 129.246000000]: Resizing costmap to 384 X 384 at 0.050000 m/pix
+[ INFO] [1582657629.715208624, 129.346000000]: Received a 384 X 384 map at 0.050000 m/pix
+[ INFO] [1582657629.729310726, 129.357000000]: Using plugin "obstacle_layer"
+[ INFO] [1582657629.738884612, 129.361000000]:     Subscribed to Topics: scan
+[ INFO] [1582657629.838613666, 129.437000000]: Using plugin "inflation_layer"
+[ INFO] [1582657630.092372600, 129.624000000]: Loading from pre-hydro parameter style
+[ INFO] [1582657630.210001500, 129.672000000]: Using plugin "obstacle_layer"
+[ INFO] [1582657630.220004618, 129.675000000]:     Subscribed to Topics: scan
+[ INFO] [1582657630.342245797, 129.727000000]: Using plugin "inflation_layer"
+[ INFO] [1582657630.626683516, 129.887000000]: Created local_planner dwa_local_planner/DWAPlannerROS
+[ INFO] [1582657630.643585718, 129.894000000]: Sim period is set to 0.10
+[ INFO] [1582657631.321955476, 130.276000000]: Recovery behavior will clear layer obstacles
+[ INFO] [1582657631.357838892, 130.292000000]: Recovery behavior will clear layer obstacles
+[ INFO] [1582657631.566855302, 130.389000000]: odom received!
